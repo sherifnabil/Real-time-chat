@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" ></script>
+    <title>Chat app</title>
+</head>
+<body>
+    <div class="container-center">
+
+        <h2>Chat Message</h2>
+        <div id="broad">
+
+        </div>
+        <div id="chat">
+            
+        </div>
+        
+
+        <hr>
+        Username: <input type="text" id="username" > <br>
+        <textarea id="message" placeholder="Message" style="width:100%" cols="30" rows="10"></textarea>
+        <button id="send" >Send</button>
+    </div>
+
+
+    <script src="client.js" ></script>
+
+</body>
+</html>
